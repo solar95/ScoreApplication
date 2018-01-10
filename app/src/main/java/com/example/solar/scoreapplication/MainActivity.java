@@ -6,8 +6,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
 
+
+public class MainActivity extends AppCompatActivity {
     int scoreA = 0;
     int scoreB = 0;
     int yellowA = 0, yellowB = 0, redA = 0, redB = 0;
@@ -121,14 +122,16 @@ public class MainActivity extends AppCompatActivity {
         if (option == 1) {
             cornerA++;
             Button button = findViewById(R.id.cornerA);
-            String content = String.valueOf(cornerA) + "       Corner";
+            String t = String.valueOf(getResources().getString(R.string.cornerC));
+            String content = String.valueOf(cornerA+"    "+t);
             button.setText(content);
         }
 
         if (option == 2) {
             cornerB++;
             Button button = findViewById(R.id.cornerB);
-            String content = String.valueOf(cornerB) + "       Corner";
+            String t = String.valueOf(getResources().getString(R.string.cornerC));
+            String content = String.valueOf(cornerB+"    "+t);
             button.setText(content);
         }
     }
@@ -139,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
         if (option == 1) {
             offSideA++;
             Button button = findViewById(R.id.offSideA);
-            String content = String.valueOf(offSideA) + "        Off-side";
+            String t = String.valueOf(getResources().getString(R.string.offsC));
+            String content = String.valueOf(offSideA+"    "+t);
             button.setText(content);
         }
 
@@ -147,7 +151,8 @@ public class MainActivity extends AppCompatActivity {
             offSideB++;
             Button button;
             button = findViewById(R.id.offSideB);
-            String content = String.valueOf(offSideB) + "        Off-side";
+            String t = String.valueOf(getResources().getString(R.string.offsC));
+            String content = String.valueOf(offSideB+"    "+t);
             button.setText(content);
         }
 

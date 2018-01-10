@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">ScoreApplication</string>
+    <string name="app_name">Score Counter</string>
+    <string name="teamA">Team A</string>
+    <string name="teamB">Team B</string>
+    <string name="goals">G O A L</string>
+    <string name="offSide">0        Off-side</string>
+    <string name="Corner">0       Corner</string>
+    <string name="offsC">      oFF-SIDE</string>
+    <string name="cornerC">      CORNER</string>
+    <string name="reset">Reset</string>
 </resources>
