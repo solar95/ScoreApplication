@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplicacion de puntos</string>
+    <string name="teamA">Equipo A</string>
+    <string name="teamB">Equipo B</string>
+    <string name="goals">Goles</string>
+    <string name="offSide">Fueras</string>
+    <string name="Corner">Tiros de esquina</string>
+    <string name="offsC">    Fueras</string>
+    <string name="cornerC">Tiross de esquina</string>
+    <string name="reset">Reiniciar</string>
+</resources>
